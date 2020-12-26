@@ -180,6 +180,7 @@ export default class StatisticsWidget extends DashboardWidget {
         count += timed[time];
       }
     }
+
     console.log({count:count});
 
     return count;
