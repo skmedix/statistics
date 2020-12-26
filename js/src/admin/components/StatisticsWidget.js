@@ -172,7 +172,7 @@ export default class StatisticsWidget extends DashboardWidget {
 
   getPeriodCount(entity, period) {
     const timed = app.data.statistics[entity].timed;
-    console.log({timed: timed});
+    console.dir(timed);
     let count = 0;
 
     for (const time in timed) {
